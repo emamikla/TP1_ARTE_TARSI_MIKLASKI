@@ -1,0 +1,11 @@
+header h1{
+    text-align: center;
+}
+header img{
+    width: 10%;
+}
+header{
+    border-bottom: 1px solid black;
+}
+header nav{
+}
