@@ -27,7 +27,25 @@
         </section>
         <section>
             <form action="#">
-                
+                <p>Nombre y apellido del reservante: <input type="text"></p><br>
+                <p>Ingresa tu Email: <input type="email" placeholder="TuMail@Direccion.com"></p><br>
+                <p>Ingresa tu numero de telefono: <input type="tel" placeholder="Ej: 11-1234-5678"></p><br>
+                <p>
+                    Sucursal elegida
+                    <select name="#" id="">
+                        <option disabled selected>Seleccionar Sucursal</option>
+                        <option>Sucursal Puerto Madero</option>
+                        <option>Sucursal Recoleta</option>
+                        <option>Sucursal Palermo</option>
+                    </select>
+                </p><br>
+                <p>Fecha de la reserva: <input type="date"></p><br>
+                <p>Hora de la reserva: <input type="time"></p><br>
+                <p>Cantidad de personas: <input type="number" min="1" max="20"></p><br>
+                <p>Algún comentario que nos quieras decir?</p>
+                <textarea name="descripcion"rows="4" cols="60" placeholder="Ingrese aqui los detalles:"></textarea><br>
+                <input type="submit" value="Enviá tu reserva">
+                <input type="reset" value="Limpiar formulario">
             </form>
         </section>
      </main>

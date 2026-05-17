@@ -16,8 +16,9 @@ header h1{
 header img{
     width: 7%;
 }
-header{
+body header{
     border-bottom: 1px solid black;
+    box-shadow: 5px 10px 5px black;
 }
 header nav{
     width: 92.5%;
