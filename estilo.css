@@ -1,8 +1,3 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    border: 1px solid black;
-}
 body
 {
     background-image: url(fondo\ body.png);
@@ -17,8 +12,9 @@ header img{
     width: 7%;
 }
 body header{
+    background-color: #FCE3A1;
     border-bottom: 1px solid black;
-    box-shadow: 5px 10px 5px black;
+    box-shadow: 5px 10px 5px #FCE3A1;
 }
 header nav{
     width: 92.5%;
@@ -28,20 +24,22 @@ header nav{
 header nav ul{
     list-style: none;
     text-align: center;
-    margin-right: 8%;
+    margin-right: 11%;
 }
 header nav ul li{
+    background-color: white;
+    border-radius: 100px;
     display: inline-block;
     width: 12%;
     padding: 1%;
     margin-left: 0.2%;
     margin-right: 0.2%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 header nav ul li a {
     text-decoration: none;
     color: black;
-    padding: 7%;
+    padding: 8%;
 }
 section{
     clear: both;
@@ -53,35 +51,61 @@ section div{
     /* ver el tema de margin top de como alinear diferentes tamaños en el centro*/
     font-size: 150%;
 }
+section div h3{
+    margin-bottom: 3%;
+}
 section img{
     width: 49.9%;
     float: right;
 }
+h4{
+    font-size: 130%;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.historia section img{
+    width: 100%;
+    margin-bottom: 0%;
+    background-attachment: fixed;
+}
 .invertido div{
     float: right;
+}
+.invertido h4{
+    float: right;
+    margin-right: 3%;
+    margin-top: 3%;
 }
 .invertido img{
     float: left;
 }
+.menu section{
+    border-top: 1px solid black;
+}
 .menu section img{
     width: 30%;
-    margin: 1%
+    margin: 1%;
+    padding-left: 1%;
 }
 .menu section div{
     width: 56%;
-    margin-top: 8%;
+    margin-top: 4%;
     margin-left: 5%;
     margin-right: 2%;
     margin-bottom: 2%;
+    font-size: 130%;
 }
 .menu section div h3{
     margin-bottom: 3%;
     font-size: 130%;
 }
 footer{
-    margin-top: 10%;
+    background-color: #D7BC8E;
+    margin-top: 3%;
     clear: both;
     border-top: 1px solid black;
+    padding-bottom: 1.5%;
 }
 footer a img{
     width: 5%;
