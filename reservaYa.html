@@ -14,8 +14,9 @@
             <ul>
                 <li><a href="menu.html">Nuestro menú</a></li>
                 <li><a href="historia.html">Historia</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="nuestrosLocales.html">Nuestros locales</a></li>
-                <li><a href="reservaYa.html">Reservá ya</a></li>
+                <li class="reserva"><a href="reservaYa.html">Reservá ya</a></li>
         </nav>
      </header>
      <main>
@@ -25,11 +26,11 @@
                 Asegurá tu lugar en un entorno de elegancia italiana, sabores inolvidables y momentos diseñados para celebrar la tradición gastronómica en su máxima expresión.
             </p>
         </section>
-        <section style="clear: both;">
+        <section>
             <form action="#">
-                <p>Nombre y apellido del reservante: <input type="text"></p><br>
-                <p>Ingresa tu Email: <input type="email" placeholder="TuMail@Direccion.com"></p><br>
-                <p>Ingresa tu numero de telefono: <input type="tel" placeholder="Ej: 11-1234-5678"></p><br>
+                <p>Nombre y apellido del reservante: <input type="text"></p>
+                <p>Ingresa tu Email: <input type="email" placeholder="TuMail@Direccion.com"></p>
+                <p>Ingresa tu numero de telefono: <input type="tel" placeholder="Ej: 11-1234-5678"></p>
                 <p>
                     Sucursal elegida
                     <select name="#" id="">
@@ -38,14 +39,14 @@
                         <option>Sucursal Recoleta</option>
                         <option>Sucursal Palermo</option>
                     </select>
-                </p><br>
-                <p>Fecha de la reserva: <input type="date"></p><br>
-                <p>Hora de la reserva: <input type="time"></p><br>
-                <p>Cantidad de personas: <input type="number" min="1" max="20"></p><br>
+                </p>
+                <p>Fecha de la reserva: <input type="date"></p>
+                <p>Hora de la reserva: <input type="time"></p>
+                <p>Cantidad de personas: <input type="number" min="1" max="20"></p>
                 <p>Algún comentario que nos quieras decir?</p>
                 <textarea name="descripcion"rows="4" cols="60" placeholder="Ingrese aqui los detalles:"></textarea><br>
-                <input type="submit" value="Enviá tu reserva">
-                <input type="reset" value="Limpiar formulario">
+                <input type="submit" class="form">
+                <input type="reset">
             </form>
         </section>
      </main>

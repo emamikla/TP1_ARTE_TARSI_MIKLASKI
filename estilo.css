@@ -1,24 +1,27 @@
-body
-{
-    background-image: url(fondo\ body.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body{
+    background-color: #FAF8F5;
+}
+header{
+    border-bottom: 1px solid black;
+    padding-bottom: 5%; 
+    margin-bottom: 1%;
+    background-color:#607D6B;
 }
 header h1{
     text-align: center;
+    width: 50%;
+    margin-right: 25%;
+    float: right;
+    margin-bottom: -1.5%;
 }
 header img{
-    width: 7%;
-}
-body header{
-    background-color: #FCE3A1;
-    border-bottom: 1px solid black;
-    box-shadow: 5px 10px 5px #FCE3A1;
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: -4%;
 }
 header nav{
     width: 92.5%;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
     float: right;
 }
 header nav ul{
@@ -27,14 +30,15 @@ header nav ul{
     margin-right: 11%;
 }
 header nav ul li{
-    background-color: white;
+    background-color: #FAF8F5;
     border-radius: 100px;
     display: inline-block;
     width: 12%;
     padding: 1%;
     margin-left: 0.2%;
     margin-right: 0.2%;
-    margin-top: 2%;
+    margin-top: 1%;
+    border: 1px solid black;
 }
 header nav ul li a {
     text-decoration: none;
@@ -58,15 +62,42 @@ section img{
     width: 49.9%;
     float: right;
 }
+section form{
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 30%;
+    background-color: #E28774;
+    font-size: 20px;
+    border-radius: 75px;
+    padding: 1.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+section form p{
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+section form textarea{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: -2%;
+}
 h4{
     font-size: 130%;
     width: 80%;
-    margin-top: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
     margin-left: 3%;
+}
+.reserva{
+    background-color: #E28774;
+    font-size: larger;
+    font-weight: bold;
 }
 .historia section img{
     width: 100%;
-    margin-bottom: 0%;
+    margin-bottom: 1.5%;
     background-attachment: fixed;
 }
 .invertido div{
@@ -75,37 +106,40 @@ h4{
 .invertido h4{
     float: right;
     margin-right: 3%;
-    margin-top: 3%;
 }
 .invertido img{
     float: left;
 }
-.menu section{
+.menu{
     border-top: 1px solid black;
 }
-.menu section img{
+.menu img{
     width: 30%;
     margin: 1%;
     padding-left: 1%;
 }
-.menu section div{
+.menu div{
     width: 56%;
-    margin-top: 4%;
+    margin-top: 7%;
     margin-left: 5%;
     margin-right: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     font-size: 130%;
 }
-.menu section div h3{
+.menu div h3{
     margin-bottom: 3%;
     font-size: 130%;
 }
-footer{
-    background-color: #D7BC8E;
-    margin-top: 3%;
+.form{
+    margin-left: 5%;
+    margin-right: 2%;
+    size: 300%;
+}
+footer{   
+    background-color:#607D6B;
+    margin-top: 1%;
     clear: both;
     border-top: 1px solid black;
-    padding-bottom: 1.5%;
 }
 footer a img{
     width: 5%;
